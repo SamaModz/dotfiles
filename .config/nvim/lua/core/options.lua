@@ -1,0 +1,34 @@
+local opt = vim.opt
+opt.number = true
+opt.relativenumber = true
+opt.expandtab = true
+opt.tabstop = 2
+opt.shiftwidth = 2
+opt.smartindent = true
+opt.ignorecase = true
+opt.smartcase = true
+opt.incsearch = true
+opt.hlsearch = true
+opt.cursorline = true
+opt.wrap = false
+opt.mouse = "a"
+opt.termguicolors = true
+opt.signcolumn = "yes"
+opt.list = false
+vim.opt.list = false
+opt.backup = false
+opt.writebackup = false
+opt.swapfile = false
+opt.timeoutlen = 500
+opt.clipboard = "unnamedplus"
+opt.hidden = true
+opt.updatetime = 250
+opt.timeoutlen = 500
+opt.lazyredraw = false
+opt.synmaxcol = 200
+opt.completeopt = { "menu", "menuone", "noselect" }
+opt.shortmess:append("c")
+opt.undofile = true
+opt.undodir = vim.fn.stdpath('data') .. '/undodir'
+opt.showmode = false
+opt.fillchars = { eob = "~" }
