@@ -157,7 +157,6 @@ check_packages() {
     curl
     wget
     nodejs
-    gcc
     clang
     ncurses-utils
     git
